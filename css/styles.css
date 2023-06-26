@@ -87,11 +87,15 @@ li.menu-item {
     padding: 15px;
 }
 
-
 figure img {
     max-width: 100%;
     border-radius: 50%;
     margin: 20px 0;
+}
+
+img:hover, li.menu-item:hover {
+    background-color: #af599e4d;
+    opacity: 0.5;
 }
 
 section {
